@@ -36,16 +36,10 @@ export default function Contact() {
       link: null,
     },
     {
-      icon: Linkedin,
-      label: 'LinkedIn',
-      value: 'linkedin.com/in/leonoharber',
-      link: 'https://linkedin.com',
-    },
-    {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/leonoharber',
-      link: 'https://github.com',
+      value: 'github.com/flex-lucky',
+      link: 'https://github.com/Flex-Lucky',
     },
   ];
 
