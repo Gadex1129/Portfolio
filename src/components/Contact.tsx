@@ -1,4 +1,4 @@
-import { Mail, MapPin, Linkedin, Github, Send } from 'lucide-react';
+import { Mail, MapPin, Github, Send } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Contact() {
@@ -113,7 +113,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-xl border-2 border-slate-600 bg-slate-700/50 text-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 outline-none transition-all"
-                  placeholder="John Doe"
+                  placeholder="Leone Harber"
                 />
               </div>
 
@@ -129,7 +129,7 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-xl border-2 border-slate-600 bg-slate-700/50 text-white focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 outline-none transition-all"
-                  placeholder="john@example.com"
+                  placeholder="flex.lucky555@gmail.com"
                 />
               </div>
 
