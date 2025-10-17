@@ -22,10 +22,9 @@ export default function Skills() {
       icon: Code,
       skills: [
         { name: 'React', level: 95, icon: '⚛️', description: 'Advanced hooks, context, and state management', yearsOfExperience: 5, projects: 45 },
-        { name: 'Vue', level: 90, icon: '💚', description: 'Vue 3 composition API and reactive patterns', yearsOfExperience: 4, projects: 32 },
         { name: 'HTML', level: 98, icon: '📄', description: 'Semantic HTML5 and accessibility standards', yearsOfExperience: 7, projects: 80 },
         { name: 'CSS', level: 95, icon: '🎨', description: 'Modern CSS, animations, and responsive design', yearsOfExperience: 7, projects: 75 },
-        { name: 'Tailwind CSS', level: 92, icon: '🌊', description: 'Custom configurations and design systems', yearsOfExperience: 3, projects: 50 },
+        { name: 'Tailwind CSS', level: 95, icon: '🌊', description: 'Custom configurations and design systems', yearsOfExperience: 3, projects: 50 },
       ],
     },
     {
@@ -59,7 +58,7 @@ export default function Skills() {
       title: 'Version Control',
       icon: GitBranch,
       skills: [
-        { name: 'Git', level: 93, icon: '📦', description: 'Advanced branching, rebasing, and collaboration', yearsOfExperience: 7, projects: 100 },
+        { name: 'Git', level: 95, icon: '📦', description: 'Advanced branching, rebasing, and collaboration', yearsOfExperience: 7, projects: 100 },
       ],
     },
   ];
