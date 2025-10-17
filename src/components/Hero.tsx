@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export default function Hero() {
@@ -104,15 +104,6 @@ export default function Hero() {
             className="px-8 py-4 bg-transparent text-emerald-400 font-semibold rounded-full border-2 border-emerald-500 hover:bg-emerald-500/10 hover:shadow-lg transition-all duration-300"
           >
             Get In Touch
-          </button>
-        </div>
-
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <button
-            onClick={() => scrollToSection('about')}
-            className="text-slate-500 hover:text-emerald-400 transition-colors"
-          >
-            <ArrowDown size={32} />
           </button>
         </div>
       </div>
